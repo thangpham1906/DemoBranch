@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     EditText etUser, etPass;
     Button btnLogin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(etPass.getText().equals("123")&&etUser.getText().equals("123"))
-                {
+                if (etPass.getText().equals("123") && etUser.getText().equals("123")) {
                     Toast.makeText(MainActivity.this, "Login success", Toast.LENGTH_SHORT).show();
-                }
-                else
+                } else
                     Toast.makeText(MainActivity.this, "Login fail", Toast.LENGTH_SHORT).show();
             }
         });
-        if(etUser.getText().equals("aaaa"))
-        {
+        if (etUser.getText().equals("aaaa")) {
+            Toast.makeText(this, "dsabdsajkbd", Toast.LENGTH_SHORT).show();
+        }
+        if (etPass.getText().equals("aaaa")) {
             Toast.makeText(this, "dsabdsajkbd", Toast.LENGTH_SHORT).show();
         }
     }
