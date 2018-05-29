@@ -36,5 +36,8 @@ public class MainActivity extends AppCompatActivity {
         if (etPass.getText().equals("aaaa")) {
             Toast.makeText(this, "dsabdsajkbd", Toast.LENGTH_SHORT).show();
         }
+        System.out.println("ádasdasdasdasdasdasdasdasd");
+        System.out.println("ádasdasdasdasdasdasdasdasd");
+        System.out.println("ádasdasdasdasdasdasdasdasd");
     }
 }
