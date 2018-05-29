@@ -31,5 +31,9 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Login fail", Toast.LENGTH_SHORT).show();
             }
         });
+        if(etUser.getText().equals("aaaa"))
+        {
+            Toast.makeText(this, "dsabdsajkbd", Toast.LENGTH_SHORT).show();
+        }
     }
 }
