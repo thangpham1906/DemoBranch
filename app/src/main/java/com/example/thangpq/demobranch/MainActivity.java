@@ -45,4 +45,8 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("123");
         }
     }
+    public void create12345()
+    {
+        Toast.makeText(this, "This is 12345", Toast.LENGTH_SHORT).show();
+    }
 }
