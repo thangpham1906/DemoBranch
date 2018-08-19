@@ -35,5 +35,7 @@ public class ListActivity extends AppCompatActivity {
     void addPerson2()
     {
         Person person2 = new Person("1","1");
+        Person person23 = new Person("1","1");
+        Person person234 = new Person("1","1");
     }
 }
