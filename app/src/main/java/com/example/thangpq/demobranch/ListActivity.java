@@ -63,4 +63,8 @@ public class ListActivity extends AppCompatActivity {
         Person person23 = new Person("1","1");
         Person person234 = new Person("1","1");
     }
+    void create123()
+    {
+        String create123="123";
+    }
 }
