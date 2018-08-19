@@ -38,4 +38,10 @@ public class ListActivity extends AppCompatActivity {
         Person person23 = new Person("1","1");
         Person person234 = new Person("1","1");
     }
+    void addPerson233()
+    {
+        Person person2 = new Person("1","1");
+        Person person23 = new Person("1","1");
+        Person person234 = new Person("1","1");
+    }
 }
