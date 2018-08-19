@@ -45,4 +45,10 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("123");
         }
     }
+    void createMain()
+    {
+        Toast.makeText(this, "dsads", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "dsads", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "dsads", Toast.LENGTH_SHORT).show();
+    }
 }
